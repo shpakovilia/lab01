@@ -114,6 +114,17 @@ int main()
     S2=pi*r*r;
     S3=S1-S2;
     std::cout << "the square of a ring = "<<S3<< std::endl;
+//11 
+    double L = 0;
+    double V = 0;
+    double S = 0;
+    std::cout <<"enter the length of a side"<< std::endl;
+    std::cin >> L;
+    V=L*L*L;
+    S=L*L*6;
+    std::cout << "the volume of the cube = "<<V
+            <<" and the square of a cube = " <<S
+            << std::endl;
     
     
 }
