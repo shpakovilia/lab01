@@ -42,6 +42,7 @@ int main()
     double m = 0;
     double p = 0;
 
+
     std::cout <<"enter mass and volume"<< std::endl;
     std::cin >> m >> v;
     p=m/v;
@@ -57,5 +58,26 @@ int main()
     std::cin >> q >> r;
     w=(-r)/q;
     std::cout <<w<< std::endl;
+    /////////////////////////////////////
     
-
+//8
+    double x1 = 0;
+    double x2 = 0;
+    double y1 = 0; 
+    double y2 = 0;
+    double l = 0;
+    std::cout <<"enter the coordinates"
+            << "x1= "
+            << "y1= " 
+            << "x2= "
+            << "y2= "
+            << std::endl;
+     std::cin >> x1 >> y1 >> x2 >> y2;
+    l=(x1-x2)*(x1-x2)+(y1+y2)*(y1+y2);
+    sqrt(l);
+    std::cout << "length between points = "<<l<< std::endl;
+    ////////////////////////////////////////
+    
+//9
+    
+}
