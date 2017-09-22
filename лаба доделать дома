@@ -114,6 +114,8 @@ int main()
     S2=pi*r*r;
     S3=S1-S2;
     std::cout << "the square of a ring = "<<S3<< std::endl;
+    /////////////////////////////////////////
+
 //11 
     double L = 0;
     double V = 0;
@@ -125,6 +127,24 @@ int main()
     std::cout << "the volume of the cube = "<<V
             <<" and the square of a cube = " <<S
             << std::endl;
+    ////////////////////////////////////////
     
+//12
+        double k = 0;
+    double per = 0;
+    std::cout <<" enter the length of a side"<< std::endl;
+    std::cin >> k;
+    per=k*4;
+    std::cout <<"perimetr = "<<per<< std::endl;
+    //////////////////////////////////////
     
-}
+//13 
+    double R1 = 0; 
+    double D = 0;
+    std::cout <<" enter the radius "<< std::endl;
+    std::cin >> R1;
+    D=2*R1;
+    std::cout <<"the diameter of the circle = "<<D<< std::endl; 
+    }
+   
+           
