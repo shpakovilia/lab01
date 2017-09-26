@@ -99,20 +99,4 @@ int main()
     std::cout <<"the perimetr = "<<P<< std::endl;
     /////////////////////////////////////////////
     
-//10
-    double R = 0;
-    double R0 = 0;
-    double pi = 3.14;
-    double S1 = 0;
-    double S2 = 0;
-    double S3 = 0;
-    std::cout << "enter the radius of a big round" << std::endl;
-    std::cin >> R;
-    std::cout << "ener the radius of a small round" << std::endl;
-    std::cin >> R0;
-    S1=pi*R*R;
-    S2=pi*r*r;
-    S3=S1-S2;
-    std::cout << "the square of a ring = "<<S3<< std::endl;
-    /////////////////////////////////////////
 
