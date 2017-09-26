@@ -101,7 +101,7 @@ int main()
     
 //10
     double R = 0;
-    double r = 0;
+    double R0 = 0;
     const double pi = 3.14;
     double S1 = 0;
     double S2 = 0;
@@ -109,7 +109,7 @@ int main()
     std::cout << "enter the radius of a big round" << std::endl;
     std::cin >> R;
     std::cout << "ener the radius of a small round" << std::endl;
-    std::cin >> r;
+    std::cin >> R0;
     S1=pi*R*R;
     S2=pi*r*r;
     S3=S1-S2;
