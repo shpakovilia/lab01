@@ -78,25 +78,5 @@ int main()
     std::cout << "length between points = "<<l<< std::endl;
     ////////////////////////////////////////
     
-//9
-    double A = 0;
-    double B = 0;
-    double h = 0;
-    double g = 0;
-    double P = 0; 
-    double u = 0;
-    std::cout << "enter the length of a long side"<< std::endl;
-    std::cin >> A;
-    std::cout << "enter the length of a shor side" << std::endl;
-    std::cin >> B;
-    u=(A-B)/2;
-    std::cout <<u<< std::endl;
-    std::cout << "enter the high"<< std::endl;
-    std::cin >> h;
-    g=sqrt(h*h+u*u);    
-    std::cout <<g<< std::endl;
-    P=A+B+g*g;
-    std::cout <<"the perimetr = "<<P<< std::endl;
-    /////////////////////////////////////////////
-    
+
 
