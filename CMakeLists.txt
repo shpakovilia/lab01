@@ -5,6 +5,8 @@ include_directories(SYSTEM
 )
 
 # enum your files
+add_executable(executable
+	homelab.cpp
 )
 
 target_link_libraries(executable)
