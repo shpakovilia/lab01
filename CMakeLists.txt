@@ -10,6 +10,7 @@ ADD_DEFINITIONS(
 
 # enum your files
 add_executable(executable
+  hello_world.cpp
 	homelab.cpp
 )
 
