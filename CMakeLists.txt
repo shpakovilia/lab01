@@ -4,10 +4,13 @@ include_directories(SYSTEM
     ./
 )
 
+ADD_DEFINITIONS(
+    -std=c++11
+)
+
 # enum your files
 add_executable(executable
-    homelab.cpp
+	homelab.cpp
 )
 
 target_link_libraries(executable)
-
